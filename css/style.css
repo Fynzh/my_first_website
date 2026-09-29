@@ -1,3 +1,36 @@
+html {
+  font-size: 14;
+  font-family: 'Roboto', sans-serif;
+  background-color: blanchedalmond;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #df6a6f;
+  text-shadow: 3px 3px 10px black;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #96d9a4;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+
 span:hover {
     background-color: yellow;
 }
@@ -19,8 +52,6 @@ form:invalid {
 input:valid {
   background-color: #ddffdd;
 }
-
-
 input:required {
   border-color: #800000;
   border-width: 3px;
